@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+section p.highlighted {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.motorcycle-image {
+    width: 400px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.motorcycle-video {
+    width: 600px;
+    border: 3px solid #830c0c;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(219, 212, 212, 0.4);
+}
+.section-motos-nuevas h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado {
+    display: none;
+    margin-top: 20px;
+}
+
+#resultado h2 {
+    margin-bottom: 10px;
+}
+
+#respuesta {
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elige tu moto</title>
+    <link rel="stylesheet" href="CSS/styleelige.css">
+    <script src="JS/elige-tu-moto.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Elige tu moto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="motos_nuevas.html">Motos Nuevas</a></li>
+                <li><a href="motos_usadas.html">Motos Usadas</a></li>
+                <li><a href="elige-tu-moto.html">Elige tu Moto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Encuesta</h2>
+        <form id="encuesta">
+            <p>1. ¿Cuál es tu presupuesto?</p>
+            <input type="radio" name="presupuesto" value="bajo" required> Bajo<br>
+            <input type="radio" name="presupuesto" value="medio"> Medio<br>
+            <input type="radio" name="presupuesto" value="alto"> Alto<br>
+
+            <p>2. ¿Prefieres un modelo actual o clásico?</p>
+            <input type="radio" name="modelo" value="actual" required> Actual<br>
+            <input type="radio" name="modelo" value="clasico"> Clásico<br>
+
+            <p>3. ¿Qué uso le darás a la moto?</p>
+            <input type="radio" name="uso" value="ciudad" required> Ciudad<br>
+            <input type="radio" name="uso" value="carretera"> Carretera<br>
+            <input type="radio" name="uso" value="mixto"> Mixto<br>
+
+            <p>4. ¿Valoras la tecnología y características avanzadas?</p>
+            <input type="radio" name="tecnologia" value="si" required> Sí<br>
+            <input type="radio" name="tecnologia" value="no"> No<br>
+
+            <p>5. ¿Te preocupa el desgaste y la garantía?</p>
+            <input type="radio" name="desgaste" value="si" required> Sí<br>
+            <input type="radio" name="desgaste" value="no"> No<br>
+
+            <p>6. ¿Qué tan importante es el ahorro inicial?</p>
+            <input type="radio" name="ahorro" value="muy_importante" required> Muy importante<br>
+            <input type="radio" name="ahorro" value="importante"> Importante<br>
+            <input type="radio" name="ahorro" value="no_importante"> No es importante<br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+    <section id="resultado">
+        <h2>Resultado</h2>
+        <p id="respuesta"></p>
+    </section>
+</body>
+</html>
